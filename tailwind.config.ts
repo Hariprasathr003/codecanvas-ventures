@@ -57,6 +57,18 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        'cyan-glow': 'hsl(var(--cyan-glow))',
+        'cyan-bright': 'hsl(var(--cyan-bright))',
+        'dark-base': 'hsl(var(--dark-base))',
+        'dark-elevated': 'hsl(var(--dark-elevated))',
+      },
+      fontFamily: {
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+        mono: ['JetBrains Mono', 'Courier New', 'monospace'],
+      },
+      boxShadow: {
+        'glow': 'var(--shadow-glow)',
+        'card': 'var(--shadow-card)',
       },
       borderRadius: {
         lg: "var(--radius)",
